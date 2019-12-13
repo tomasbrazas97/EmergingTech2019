@@ -11,21 +11,27 @@
 # Research 
 Extra Research can be found in the Jupyter notebook.
 
-**Keras**
+**Keras**<br>
 Keras is an open-source neural-network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, R, Theano, or PlaidML. Designed to enable fast experimentation with deep neural networks, it focuses on being user-friendly, modular, and extensible. Its used to quickly build neural networks without worrying about the mathematical aspects of tensor algebra, numerical techniques, and optimization methods.
 
-**Tensorflow**
+**Tensorflow**<br>
 Tensorflow is an open-source, python friendly, library that is used for numerical computation to make machine learning easier and faster. Tensorflow was created by the Google Brains team in 2015, it is designed to mix together machine learning and neural netwroking models together and making use of what they share in common. Tensorflows biggest benifit is that it uses abstraction to allow for increased re-usability. In the case of this project we will be using tensorflow for aiding in predicition of hand-written items.
 
-**MNIST**
+**MNIST**<br>
 The MNIST dataset is a database of handwritten digits ranging from 0-9, priarily used for testing purposes. The dataset contains 60,000 training images and 10,000 testing images for a total of 70,000 images. Each image in the dataset has been normalized to fit into 28x28 pixel image. In the case of this project the MNIST dataset will be used as the base comparison for the sumbitted hand-written image, so the model created using keras and tensorflow can make a prediction on the entered digit.
 
-**OpenCV**
+**OpenCV**<br>
 OpenCV was started at Intel in 1999 by Gary Bradsky, and the first release came out in 2000. Vadim Pisarevsky joined Gary Bradsky to manage Intel's Russian software OpenCV team. In 2005, OpenCV was used on Stanley, the vehicle that won the 2005 DARPA Grand Challenge. Later, its active development continued under the support of Willow Garage with Gary Bradsky and Vadim Pisarevsky leading the project. OpenCV now supports a multitude of algorithms related to Computer Vision and Machine Learning and is expanding day by day.
 
 OpenCV supports a wide variety of programming languages such as C++, Python, Java, etc., and is available on different platforms including Windows, Linux, OS X, Android, and iOS. Interfaces for high-speed GPU operations based on CUDA and OpenCL are also under active development.
 
 OpenCV-Python is the Python API for OpenCV, combining the best qualities of the OpenCV C++ API and the Python language.
+
+**Flask**<br>
+Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks.
+
+**Numpy**<br>
+Numpy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays
 
 # Running the application
 **Requirements:**
