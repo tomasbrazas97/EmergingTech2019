@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--Tomas Brazas-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Number Predictor
+    </title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/web-app.css') }}">
+</head>
+<body>
+    <div id="buttonDiv">
+        <button id="predictBtn" onclick="predict()">Predict</button>
+        <button id="restartBtn" onclick="erase()">Clear</button>
+    </div>
+    <div id="canvasDiv">
+        <canvas id="myCanvas"></canvas>
+    </div>
+    <div id="prediction">
+        <p>Predicted Number:</p>
+        <p id="predictedNumber"></p>
+    </div>
+
+    <!--Calling the Jquery script-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='javascript/web-app.js') }}"></script>
+</body>
+</html>
